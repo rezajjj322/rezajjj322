@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DigiKala</title>
+    <link
+      rel="stylesheet"
+      href="Asset/fontawesome-free-6.4.2-web/css/all.min.css"
+    />
+    <link rel="stylesheet" href="Css/swiper.min.css" />
+    <link rel="stylesheet" href="Css/bootstrap.min.css" />
+    <link rel="stylesheet" href="Css/MediaQuery.css" />
+    <link rel="stylesheet" href="Css/style.css" />
+  </head>
+  <body>
+    <!-- header -->
+
+    <header class="header">
+      <div class="inner-section">
+        <div class="row p-3">
+          <div class="col col-md-8 col-lg-10 d-flex py-2">
+            <a href="#" class="main-nav-logo"></a>
+            <div class="search-box">
+              <input type="search" placeholder="جستجو ... " />
+            </div>
+          </div>
+
+          <div class="login col col-md-4 col-lg-2">
+            <button class="btn-login">
+              <a href="./login/login.html">ورود</a>
+              <a href="./login/login.html">ثبت نام</a>
+            </button>
+            <a href="./basket/basket.html" target="_blank"><i class="fa-solid fa-cart-shopping"></i></a>
+          </div>
+        </div>
+
+        <div class="row d-flex justify-content-around">
+          <div class="col col-sm-6 col-md-8 col-lg-10">
+            <nav class="Menu navbar navbar-expand-lg">
+              <div class="container-fluid">
+                <button
+                  class="navbar-toggler"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#navbarSupportedContent"
+                  aria-controls="navbarSupportedContent"
+                  aria-expanded="false"
+                  aria-label="Toggle navigation"
+                >
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div
+                  class="Menu collapse navbar-collapse"
+                  id="navbarSupportedContent"
+                >
+                  <ul class="navbar-nav me-auto mb-2 mb-lg-0 bg-light fw-bold">
+                    <li class="nav-item">
+                      <a class="nav-link active" href="#">
+                        <i class="fa-solid fa-bars"></i> دسته بندی کالا</a
+                      >
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">سوپر مارکت</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">پرفروش ترین ها</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">تخفیف ها و پیشنهادها</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">درباره ما</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </nav>
+          </div>
+
+          <div
+            class="text-location col col-sm-6 col-md-4 col-lg-2 text-secondary d-flex align-items-center"
+          >
+            <i class="fa-solid fa-location-dot"></i>
+            <span>لطفا شهر خود را انتخاب کنید</span>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!--End header -->
+
+    <!-- slider -->
+    <section id="slider">
+      <div class="slider">
+        <div class="slider-item">
+          <div class="item active">
+            <img src="Asset/image/banner1.jpg" alt="banner" />
+          </div>
+          <div class="item">
+            <img src="Asset/image/banner2.jpg" alt="banner" />
+          </div>
+          <div class="item">
+            <img src="Asset/image/banner3.jpg" alt="banner" />
+          </div>
+          <div class="item">
+            <img src="Asset/image/banner4.jpg" alt="banner" />
+          </div>
+          <div class="item">
+            <img src="Asset/image/banner5.jpg" alt="banner" />
+          </div>
+          <div class="contorols">
+            <div class="next"><i class="fa solid fa-chevron-right"></i></div>
+            <div class="prev"><i class="fa solid fa-chevron-left"></i></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- End slider -->
+
+    <!-- Products -->
+
+    <section id="Products">
+      <div class="product-item row d-flex justify-content-center">
+        <div class="col col-sm-6 col-md-2 d-flex flex-column">
+          <img
+            src="Asset/image/special_suggestions.jpg"
+            alt=""
+            class="img-product"
+          />
+          <button class="btn text-light">
+            مشاهده همه<i class="fa-solid fa-angle-left"></i>
+          </button>
+        </div>
+        <div class="col col-sm-6 col-md-2">
+          <div class="card card-item">
+            <img src="Asset/image/laptop.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">24,000,000 تومان</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col col-sm-6 col-md-2">
+          <div class="card card-item">
+            <img
+              src="Asset/image/galaxy_buds.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">2,700,000 تومان</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col col-sm-6 col-md-2">
+          <div class="card card-item">
+            <img src="Asset/image/note10.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">15,100,000 تومان</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col col-sm-6 col-md-2">
+          <div class="card card-item">
+            <img src="Asset/image/ps4.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">18,300,000 تومان</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--End Products -->
+
+    <!-- Banner -->
+
+    <section id="banner">
+      <div class="banner row">
+        <div class="banner-item col-sm-12 col-md-2 col-lg-3">
+          <img src="Asset/image/banner-2-1.webp" alt="" />
+        </div>
+
+        <div class="banner-item col-sm-12 col-md-2 col-lg-3">
+          <img src="Asset/image/banner-2-2.gif" alt="" />
+        </div>
+
+        <div class="banner-item col-sm-12 col-md-2 col-lg-3">
+          <img src="Asset/image/banner-2-3.webp" alt="" />
+        </div>
+
+        <div class="banner-item col-sm-12 col-md-2 col-lg-3">
+          <img src="Asset/image/banner-2-4.webp" alt="" />
+        </div>
+      </div>
+    </section>
+
+    <!-- End Banner -->
+
+    <!-- division -->
+
+    <section id="division">
+      <h3 class="text-center">دسته بندی کالا</h3>
+
+      <div class="division">
+        <div class="row d-flex justify-content-around">
+          <div class="col-sm-4 col-md-2 d-flex flex-column">
+            <img
+              src="Asset/image/division-1.webp"
+              alt=""
+              class="division-img"
+            />
+            <span class="fw-bold">موبایل</span>
+          </div>
+          <div class="col-sm-4 col-md-2 d-flex flex-column">
+            <img
+              src="Asset/image/division-2.webp"
+              alt=""
+              class="division-img"
+            />
+            <span class="fw-bold">کالای دیجیتال</span>
+          </div>
+          <div class="col-sm-4 col-md-2 d-flex flex-column">
+            <img
+              src="Asset/image/division-3.webp"
+              alt=""
+              class="division-img"
+            />
+            <span class="fw-bold">خانه و آشپز خانه</span>
+          </div>
+          <div class="col-sm-4 col-md-2 d-flex flex-column">
+            <img
+              src="Asset/image/division-4.webp"
+              alt=""
+              class="division-img"
+            />
+            <span class="fw-bold">مد و پوشاک</span>
+          </div>
+          <div class="col-sm-4 col-md-2 d-flex flex-column">
+            <img
+              src="Asset/image/division-5.webp"
+              alt=""
+              class="division-img"
+            />
+            <span class="fw-bold">کالاهای سوپرمارکتی</span>
+          </div>
+          <div class="col-sm-4 col-md-2 d-flex flex-column">
+            <img
+              src="Asset/image/division-6.webp"
+              alt=""
+              class="division-img"
+            />
+            <span class="fw-bold">کتاب لوازم تحریر و هنر</span>
+          </div>
+          <div class="col-sm-4 col-md-2 d-flex flex-column">
+            <img
+              src="Asset/image/division-7.webp"
+              alt=""
+              class="division-img"
+            />
+            <span class="fw-bold">اسباب بازی کودک و نوزاد</span>
+          </div>
+          <div class="col-sm-4 col-md-2 d-flex flex-column">
+            <img
+              src="Asset/image/division-8.webp"
+              alt=""
+              class="division-img"
+            />
+            <span class="fw-bold">خودرو و موتور سیکلت</span>
+          </div>
+          <div class="col-sm-4 col-md-2 d-flex flex-column">
+            <img
+              src="Asset/image/division-9.webp"
+              alt=""
+              class="division-img"
+            />
+            <span class="fw-bold">ورزش و سلامت</span>
+          </div>
+          <div class="col-sm-4 col-md-2 d-flex flex-column">
+            <img
+              src="Asset/image/division-10.webp"
+              alt=""
+              class="division-img"
+            />
+            <span class="fw-bold">زیبایی و سلامت</span>
+          </div>
+          <div class="col-sm-4 col-md-2 d-flex flex-column">
+            <img
+              src="Asset/image/division-10.webp"
+              alt=""
+              class="division-img"
+            />
+            <span class="fw-bold">زیبایی و سلامت</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--End division -->
+
+    <!-- banner-2 -->
+
+    <section id="banner-2">
+      <div class="banner-2 row">
+        <div class="item-banner col col-sm-12 col-md-6">
+          <a href="#"><img src="./Asset/image/bnr-2 (1).webp" alt="" /></a>
+        </div>
+        <div class="item-banner col col-sm-12 col-md-6">
+          <a href="#"><img src="./Asset/image/bnr-2 (2).webp" alt="" /></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- End banner-2 -->
+
+    <!-- Best selling products -->
+
+    <section id="sell">
+      <h4 class="text-center mt-4">پرفروش ترین کالاها</h4>
+
+      <div class="sell row">
+        <div class="sell-item col-sm-6 col-md-3 d-flex ">
+          <img src="./Asset/image/sell-1.webp" alt="">
+          <span>ماکارونی پیکولی زر ماکارون مقدار 500 گرم</span>
+        </div>
+        <div class="sell-item col-sm-6 col-md-3 d-flex">
+          <img src="./Asset/image/sell-2.webp" alt="">
+          <span>ماکارونی پیکولی زر ماکارون مقدار 500 گرم</span>
+        </div>
+        <div class="sell-item col-sm-6 col-md-3 d-flex ">
+          <img src="./Asset/image/sell-3.webp" alt="">
+          <span>ماکارونی پیکولی زر ماکارون مقدار 500 گرم</span>
+        </div>
+        <div class="sell-item col-sm-6 col-md-3 d-flex">
+          <img src="./Asset/image/sell-4.webp" alt="">
+          <span>ماکارونی پیکولی زر ماکارون مقدار 500 گرم</span>
+        </div>
+        <div class="sell-item col-sm-6 col-md-3 d-flex ">
+          <img src="./Asset/image/sell-5.webp" alt="">
+          <span>ماکارونی پیکولی زر ماکارون مقدار 500 گرم</span>
+        </div>
+        <div class="sell-item col-sm-6 col-md-3 d-flex ">
+          <img src="./Asset/image/sell-6.webp" alt="">
+          <span>ماکارونی پیکولی زر ماکارون مقدار 500 گرم</span>
+        </div>
+        <div class="sell-item col-sm-6 col-md-3 d-flex ">
+          <img src="./Asset/image/sell-7.webp" alt="">
+          <span>ماکارونی پیکولی زر ماکارون مقدار 500 گرم</span>
+        </div>
+        <div class="sell-item col-sm-6 col-md-3 d-flex ">
+          <img src="./Asset/image/sell-8.webp" alt="">
+          <span>ماکارونی پیکولی زر ماکارون مقدار 500 گرم</span>
+        </div>
+      </div>
+
+    </section>
+
+    <!-- End Best selling products -->
+
+    <footer>
+      <div class="container footer">
+        <div class="row">
+          <div class="col-12 col-sm-12 col-md-3 menu-footer">
+            <ul>
+              <li class="fw-bold">با دیجی کالا</li>
+              <li>اتاق خبر دیجی کالا</li>
+              <li>فروش با دیجی کالا</li>
+              <li>فرصت های شغلی</li>
+              <li>گزارش تخاف در دیجی کالا</li>
+              <li>تماس با دیجی کالا</li>
+            </ul>
+          </div>
+          <div class="col-12 col-sm-12 col-md-3 menu-footer">
+            <ul>
+              <li class="fw-bold">با دیجی کالا</li>
+              <li>اتاق خبر دیجی کالا</li>
+              <li>فروش با دیجی کالا</li>
+              <li>فرصت های شغلی</li>
+              <li>گزارش تخاف در دیجی کالا</li>
+            </ul>
+          </div>
+          <div class="col-12 col-sm-12 col-md-3 menu-footer">
+            <ul>
+              <li class="fw-bold">با دیجی کالا</li>
+              <li>اتاق خبر دیجی کالا</li>
+              <li>فروش با دیجی کالا</li>
+              <li>فرصت های شغلی</li>
+              
+            </ul>
+          </div>
+          <div class="contact col-12 col-sm-12 col-md-3 menu-footer">
+            <div class="mt-1">
+              <p>!همراه ما باشید</p>
+            </div>
+            <div class="icons-footer">
+              <i class="fa-brands fa-instagram"></i>
+              <i class="fa-brands fa-twitter"></i>
+              <i class="fa-brands fa-linkedin"></i>
+            </div>
+            <div>
+              <span>با ثبت ایمیل، از جدید‌ترین تخفیف‌ها با‌خبر شوید</span>
+              <form action="">
+                <input type="email" placeholder="ایمیل شما">
+                <button type="button" class="btn btn-outline-secondary">ثبت</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+
+    <script src="Js/Asset.js"></script>
+    <script src="Js/bootstrap.bundle.min.js"></script>
+    <script src="Js/jquery-3.7.1.min.js"></script>
+    <script src="Js/popper.min.js"></script>
+    <script src="Js/swiper.min.js"></script>
+  </body>
+</html>

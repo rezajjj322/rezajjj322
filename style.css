@@ -1,0 +1,306 @@
+@font-face {
+  font-family: digikala;
+  src: url("Asset/fonts/icons.eot"), url("Asset/fonts/icons.ttf"),
+    url("Asset/fonts/icons.woff");
+}
+@font-face {
+  font-family: yekan;
+  font-weight: 100;
+  src: url("Asset/fonts/yekan.eot"), url("Asset/fonts/yekan.ttf"),
+    url("Asset/fonts/yekan.woff");
+}
+@font-face {
+  font-family: yekan;
+  font-weight: 400;
+  src: url("Asset/fonts/yekanRegular.eot"), url("Asset/fonts/yekanRegular.ttf"),
+    url("Asset/fonts/yekanRegular.woff");
+}
+
+body {
+  background: #f5f5f5;
+  direction: rtl;
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
+}
+
+/* header */
+
+.header {
+  background: #fff;
+  box-shadow: rgba(0, 0, 0, 0.4) 0 7px 8px 0;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+.inner-section {
+  width: 100%;
+  height: auto;
+}
+
+.header .main-nav-logo {
+  background: url(../Asset/image/logo.svg);
+  width: 94px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-top: 0.6rem;
+}
+
+.header .search-box input {
+  border: none;
+  border-radius: 5px;
+  margin-right: 24px;
+  background: #f0f0f1;
+  box-sizing: border-box;
+  padding: 10px 14px;
+  width: 90%;
+  height: auto;
+  outline: none;
+}
+
+.login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.login button {
+  width: 9rem;
+  height: auto;
+  background: none;
+  border: 1px solid rgb(175, 173, 173);
+  font-size: 1rem;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+}
+.login button a {
+  text-decoration: none;
+  color: #5e5e5e;
+  transition: all 0.2s;
+  padding: 0.7rem;
+  font-weight: 500;
+}
+.login button :nth-child(2) {
+  border-right: 1px solid #777676;
+  height: 2rem;
+  padding-top: 0.3rem;
+}
+.login button a:hover {
+  color: #383838;
+}
+.login i {
+  margin: 1.2rem;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.text-location span {
+  font-size: 14px;
+  cursor: pointer;
+  margin: 0 0.4rem;
+}
+
+.Menu {
+  position: relative;
+  margin-bottom: 0.5rem;
+  z-index: 1000;
+}
+.Menu ul {
+  position: absolute;
+  right: 0;
+  padding-right: 0;
+}
+.Menu ul li a {
+  margin: 0 0.5rem;
+  transition: all 0.3s ease-in-out;
+  color: #777777;
+}
+
+/* slider */
+
+.slider {
+  width: 100%;
+  overflow-x: hidden;
+}
+.slider-item {
+  width: 100%;
+  height: 100%;
+}
+.slider-item .item {
+  display: none;
+}
+.slider-item .item.active {
+  display: block;
+  transition: all 0.3s ease-in-out;
+}
+.slider-item .item img {
+  width: 100%;
+  height: 81vh;
+}
+
+.contorols {
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  top: 60%;
+  width: 100%;
+}
+.next,
+.prev {
+  margin: 0 1rem;
+  color: #ffff;
+  font-size: 26px;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  background: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.next:active,
+.prev:active {
+  transform: scale(0.9, 0.9);
+}
+
+.text-slider {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin: 1.5rem 0;
+  text-align: center;
+}
+.text-slider :nth-child(2) {
+  font-weight: bold;
+}
+
+/* Products */
+
+.product-item {
+  width: 100%;
+  border-radius: 15px;
+  margin: 1.5rem 0.1rem;
+  background: rgb(240, 68, 102);
+  overflow-x: hidden;
+}
+.img-product {
+  width: 95%;
+  margin-top: 2rem;
+}
+.card-item {
+  width: auto;
+  height: auto;
+  margin: 1.4rem 0;
+}
+
+/* banner */
+.banner {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  margin: 2rem 0;
+}
+.banner-item img {
+  width: 100%;
+  height: 40vh;
+  border-radius: 10px;
+}
+
+/* Division */
+
+.division {
+  margin: 3rem 3rem 3rem 0;
+  overflow-x: hidden;
+}
+.division-img {
+  width: 50%;
+  height: 65%;
+}
+
+/* banner-2 */
+
+.banner-2 {
+  width: 100%;
+  margin: 2rem 0;
+}
+.item-banner img {
+  width: 100%;
+  height: 40vh;
+  border-radius: 10px;
+  cursor: pointer;
+  margin: 1rem 0;
+  object-fit: cover;
+}
+
+/* Best selling products */
+
+#sell {
+  background: #ffff;
+  border: 1px solid #d8d7d7;
+  border-radius: 7px;
+  margin: 1rem;
+}
+.sell {
+  
+  overflow-x: hidden;
+}
+.sell-item{
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+}
+.sell-item img {
+  width: 60%;
+  height: 70%;
+}
+.sell-item span{
+  font-weight: bold;
+  font-size: 12px;
+}
+
+/* footer */
+
+.footer{
+  width: 100%;
+  margin-top: 2rem;
+  z-index: 1000;
+}
+
+.menu-footer ul li{
+  list-style: none;
+  margin: 1rem 0;
+  font-weight: normal;
+  cursor: pointer;
+  transition: all 0.3s;
+  padding: 0;
+}
+.menu-footer ul li:hover{
+  color: crimson;
+}
+
+.contact .icons-footer{
+  font-size: 30px;
+  
+}
+.contact .icons-footer i{
+  margin: 0 0.8rem;
+  cursor: pointer;
+}
+.contact form {
+  display: flex;
+  align-items: center;
+}
+
+.contact form input{
+  width: 27rem;
+  padding: 6px;
+  outline: none;
+  margin-left: 1rem;
+  border-radius: 5px;
+  border: 1px solid rgb(175, 175, 175);
+}
